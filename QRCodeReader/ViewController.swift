@@ -1,10 +1,6 @@
 import UIKit
 import AVFoundation
 
-protocol BarcodeDelegate {
-    func barcodeReaded(barcode: String)
-}
-
 class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, QRCodeDelegate {
     
     
